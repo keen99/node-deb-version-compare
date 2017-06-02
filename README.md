@@ -4,7 +4,7 @@ Compare packages version according to debian versionning standard (Debian Policy
 ## Usage
 
     var compare = require("deb-version-compare");
-    compare("1.0.0","1.0.1") //return 1
+    compare("1.0.0","1.0.1") //return -1
     compare("1.0.0","1.0.0") //return 0
     compare("1.0.0~rc1","1.0.0") //return -1
     compare("2:1.0.0","1:2.0.0") //return 1
